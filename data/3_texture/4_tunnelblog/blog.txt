@@ -1,0 +1,23 @@
+Intro
+I've wanted to write this for some time, but never got around to
+it until now.
+
+A while back I saw an impressive fragment shader demo. It was not only visually
+amazing, but the number of lines of code it required was impressive. Because there
+were so few lines of code, it allowed me to reverse engineer the shader and break it
+apart line by line. Once I figured it out, I thought I'd write about it. I did find one or two blogs, but there were not as thourough as I'd hoped. 
+
+
+Basic
+ So let's start with the basiscs. We'll need a sketch, vertex and fragment shader.
+
+
+
+Movement
+ To add movement, we'll use time.
+
+
+
+Polish
+ 
+
