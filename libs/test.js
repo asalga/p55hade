@@ -12877,8 +12877,12 @@ module.exports = function setupParser(Processing, options) {
 
       @returns PShader
     */
-    Drawing3D.prototype.loadShader = function(fragShader, vertShader){
+    Drawing3D.prototype.loadShader = function(fragShader, vertShader, isCode){
 
+      if(isCode === true){
+        return new PShader(fragShader, vertShader);
+      }
+      
       var fs = ajax(fragShader);
       var vs = ajax(vertShader);
       return new PShader(vs, fs);
