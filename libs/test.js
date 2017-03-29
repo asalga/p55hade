@@ -20,7 +20,8 @@ var Browser = {
     return xhr.responseText;
   }
 };
-
+console.log('test');
+  
 window.ProcessingNoConflict = require('./src/')(Browser);
 
 },{"./src/":26}],2:[function(require,module,exports){
